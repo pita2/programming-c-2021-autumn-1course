@@ -11,5 +11,5 @@ int main(int argc, const char * argv[])
     
     cout << n + 2 - (n % 2) << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
