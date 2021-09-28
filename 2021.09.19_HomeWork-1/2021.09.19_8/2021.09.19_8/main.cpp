@@ -11,5 +11,5 @@ int main(int argc, const char * argv[])
     
     cout << h2 * 60 * 60 + m2 * 60 + s2 - h1 * 60 * 60 - m1 * 60 - s1 << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
