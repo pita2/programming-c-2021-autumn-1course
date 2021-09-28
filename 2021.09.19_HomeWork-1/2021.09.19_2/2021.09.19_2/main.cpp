@@ -10,5 +10,5 @@ int main(int argc, const char * argv[])
     cin >> n >> k;
     cout << k / n << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
