@@ -10,5 +10,5 @@ int main(int argc, const char * argv[])
     int t = 0;
     cin >> v >> t;
     cout << (v * t % 109 + 109) % 109 << endl;
-    return 0;
+    return EXIT_SUCCESS;
 }
