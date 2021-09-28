@@ -15,5 +15,5 @@ int main(int argc, const char * argv[])
     int a3 = n % 10;
     cout << a1 + a2 + a3 << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
