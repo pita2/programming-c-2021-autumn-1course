@@ -12,5 +12,5 @@ int main(int argc, const char * argv[])
     cin >> a >> b;
     cout << (a + b) / 2 + abs((a - b) / 2) + (a + b) % 2 << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
