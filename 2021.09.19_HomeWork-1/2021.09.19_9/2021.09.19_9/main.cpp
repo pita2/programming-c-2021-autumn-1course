@@ -13,5 +13,5 @@ int main(int argc, const char * argv[])
     int t = x * x;
     cout << (t + x + 1) * t + x + 1 << endl;
     
-    return 0;
+    return EXIT_SUCCESS;
 }
