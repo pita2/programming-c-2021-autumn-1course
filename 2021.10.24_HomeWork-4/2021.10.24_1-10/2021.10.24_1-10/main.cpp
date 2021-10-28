@@ -82,15 +82,22 @@ int main(int argc, const char * argv[])
     
     
     cout << "SECOND MAX : "; // 8
-    int mx1 = 0;
-    int mx2 = 0;
+    int mx1 = a[0];
+    int mx2 = mx1 - 1;
      
-    for (int i = 0; i < n; ++i)
+    for (int i = 1; i < n; ++i)
     {
         if(a[i] > mx1)
         {
             mx2 = mx1;
             mx1 = a[i];
+        }
+        else
+        {
+            if (a[i] > mx2)
+            {
+                mx2 = a[i];
+            }
         }
     }
     cout << mx2 << endl;
