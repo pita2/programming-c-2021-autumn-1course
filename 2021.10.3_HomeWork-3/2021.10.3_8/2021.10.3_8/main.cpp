@@ -13,7 +13,6 @@ int main(int argc, const char * argv[])
     {
         int a = 0;
         cin >> a;
-        
         sum += a;
     }
     

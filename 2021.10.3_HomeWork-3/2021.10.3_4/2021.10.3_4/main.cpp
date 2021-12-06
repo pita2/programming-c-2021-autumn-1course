@@ -13,17 +13,17 @@ int main(int argc, const char * argv[])
     
     cin >> n >> k;
     
-    for (int i = 1; i <= n; ++i)
+    for (int i = 0; i < n; ++i)
     {
-        f_n *= i;
+        f_n *= (i + 1);
     }
-    for (int i = 1; i <= k; ++i)
+    for (int i = 0; i < k; ++i)
     {
-        f_k *= i;
+        f_k *= (i + 1);
     }
-    for (int i = 1; i <= n - k; ++i)
+    for (int i = 0; i < n - k; ++i)
     {
-        f_n_k *= i;
+        f_n_k *= (i + 1);
     }
 
     c_n_k = f_n / (f_k * f_n_k);
